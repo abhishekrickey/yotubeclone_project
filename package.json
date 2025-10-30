@@ -1,0 +1,15 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:client": "npm run dev --workspace=packages/client",
+    "dev:functions": "npm run dev --workspace=packages/functions",
+    "dev:video-processor": "npm run dev --workspace=packages/video-processor",
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspaces"
+  }
+}
