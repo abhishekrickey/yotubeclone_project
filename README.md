@@ -69,7 +69,3 @@ npm run deploy:video-processor
 ```bash
 npm run deploy:client
 ```
-
-## License
-
-MIT
